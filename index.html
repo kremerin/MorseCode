@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
+    <title>Morse Code</title>
+</head>
+<body>
+    <section class="container my-5">
+        <h1 class="mb-5">Morse Code</h1>
+            <form action="" onsubmit="return false">
+            <input type="text" placeholder="Hier Text eingeben" name="message" id="message">
+            <button type="button" value="submit" onclick="morse()">Absenden</button>
+        </form>
+        <div class="row">
+            <h2 class="mt-5 mb-3">Nachricht:</h2>
+            <span id="output1" class="col-6"></span>
+            <span id="output2" class="offset-1 col-2"></span>
+            <span id="output3" class="col-2"></span>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
